@@ -6,13 +6,19 @@ using System.Collections.Generic;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BreadTests
+  public class BreadTests : IDisposable
   {
-  [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void Dispose()
+    {
+      Bread.ClearAll();
+    }
+      [TestMethod]
+      public void Bread_ReturnsNumber_True()
+      // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
   {
   // any necessary logic to prep for test; instantiating new classes, etc.
-  Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+  Bread testBread = new Bread();
+  Assert.AreEqual(true, testBread.Price(2));
   }
   }
 }
