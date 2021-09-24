@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5MsuVP+/K9xz+9psTRHXE20OvW+L3CPeYBVaQHd8sK03faWktFWHNvwU+jrYr+txk0Rv1yKkbQ0YSejqzshPNw==",
+  "dgSpecHash": "J+ICDQ+7yLhO+adjwm1ZCiIIFE2zlOYGY6KgZR4ZZvYP9KjFphU0cAb6btIFPOB6id5SbIohc4qbU16eCz60PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brand\\Desktop\\Epicodus\\csharptemplate\\ProjectName.Solution\\projectname.tests\\ProjectName.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Brand\\Desktop\\Epicodus\\week8\\Bakery.Solution\\bakery.tests\\Bakery.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brand\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\Brand\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
