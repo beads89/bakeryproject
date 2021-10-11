@@ -20,5 +20,10 @@ namespace Bakery.Tests
       Bread testBread = new Bread();
       Assert.AreEqual(typeof(Bread), testBread.GetType());
     }
+    public void BreadCost_CreatesIntOfTotalBreadCost_ReturnCost()
+    {
+      Bread testBread = new Bread();
+      Assert.AreEqual(10, testBread.BreadCost(3));
+    }
   }
 }
