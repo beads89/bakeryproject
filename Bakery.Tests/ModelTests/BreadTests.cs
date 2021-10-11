@@ -10,15 +10,15 @@ namespace Bakery.Tests
   {
     // public void Dispose()
     // {
-    //   // Bread.ClearAll();
+    //   Bread.ClearAll();
     // }
-      [TestMethod]
+      [TestMethod] //Name of Method we are testing - Bread = Constructor. Description of behavior.
       public void BreadConstructor_CreatesInstanceOfBread_Bread()
       // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
     {
       // any necessary logic to prep for test; instantiating new classes, etc.
-      Bread testBread = new Bread("5");
+      Bread testBread = new Bread();
       Assert.AreEqual(typeof(Bread), testBread.GetType());
-  }
+    }
   }
 }
