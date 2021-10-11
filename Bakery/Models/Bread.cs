@@ -23,7 +23,18 @@ namespace Bakery
 
     public int BreadCost(int amount)
     {
-      
+      int breadSingle = 0;
+      for(int i = 0; i <= amount; i++)
+      {
+        if(i % 3 == 0)
+        {
+          breadSingle+= 0;
+        }
+        else
+        {
+          breadSingle += 5;
+        }
+      } return breadSingle;
     }
     // public static BreadTotal(string amount, int price) // Test methods
     // {

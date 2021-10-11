@@ -20,6 +20,7 @@ namespace Bakery.Tests
       Bread testBread = new Bread();
       Assert.AreEqual(typeof(Bread), testBread.GetType());
     }
+    [TestMethod]
     public void BreadCost_CreatesIntOfTotalBreadCost_ReturnCost()
     {
       Bread testBread = new Bread();

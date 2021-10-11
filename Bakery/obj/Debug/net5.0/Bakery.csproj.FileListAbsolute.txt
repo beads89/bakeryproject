@@ -10,7 +10,3 @@ C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\bin\Debug\net5.0\Ba
 C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\obj\Debug\net5.0\Bakery.dll
 C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\obj\Debug\net5.0\ref\Bakery.dll
 C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\obj\Debug\net5.0\Bakery.pdb
-C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\bin\Debug\net5.0\Bakery.exe
-C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\bin\Debug\net5.0\Bakery.runtimeconfig.json
-C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\bin\Debug\net5.0\Bakery.runtimeconfig.dev.json
-C:\Users\Brand\Desktop\Epicodus\week8\Bakery.Solution\bakery\obj\Debug\net5.0\Bakery.genruntimeconfig.cache
