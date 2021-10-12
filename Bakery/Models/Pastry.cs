@@ -12,16 +12,17 @@ namespace Bakery
       PastryPrice = price;
       return price;
     }
-        public int PastryCost(int amount)
+    public int PastryCost(int amount)
     {
       int pastrySingle = amount*2;
-      for(int i = 0; i < amount; i++)
+      int pastryTotalCost = pastrySingle;
+      for(int i = 1; i <= amount; i++)
       {
         if(i % 3 == 0)
         {
-          pastrySingle--;
+          pastryTotalCost--;
         }
-      } return pastrySingle;
+      } return pastryTotalCost;
     }
   }
 }
