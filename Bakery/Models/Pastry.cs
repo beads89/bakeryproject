@@ -14,6 +14,10 @@ namespace Bakery.Models
       PastryPrice = price;
       return price;
     }
+        public int PastryCost(int amount)
+    {
+
+    }
   }
 }
     // public string PastryTotal(string amount)
