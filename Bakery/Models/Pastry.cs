@@ -16,7 +16,14 @@ namespace Bakery.Models
     }
         public int PastryCost(int amount)
     {
-
+      int pastrySingle = amount*2;
+      for(int i = 0; i < amount; i++)
+      {
+        if(i % 3 == 0)
+        {
+          --pastrySingle;
+        }
+      } return pastrySingle;
     }
   }
 }

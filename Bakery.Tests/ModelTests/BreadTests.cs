@@ -38,5 +38,11 @@ namespace Bakery.Tests
       Pastry testPastry = new Pastry();
       Assert.AreEqual(5, testPastry.PastryCost(3));
     }
+    [TestMethod]
+    public void PastryCost_CreatesSecondIntOfTotalPastryCost_ReturnCost()
+    {
+      Pastry testPastry = new Pastry();
+      Assert.AreEqual(10, testPastry.PastryCost(6));
+    }
   }
 }
