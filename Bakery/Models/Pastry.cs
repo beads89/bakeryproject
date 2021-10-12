@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Bakery.Models;
 
-// Buy 2 get 1 half off.
 
-namespace Bakery.Models
+namespace Bakery
 {
   public class Pastry
   {
@@ -27,12 +25,3 @@ namespace Bakery.Models
     }
   }
 }
-    // public string PastryTotal(string amount)
-    // {
-    //   Console.WriteLine("How many pastry's do you want?");
-    //   string pastryInput = Console.ReadLine();
-    //   int pastryNumber = Convert.ToInt32(pastryInput);
-    //   Pastry PastryAmount = new Pastry();
-    //   Console.WriteLine(amount);
-    //   return PastryAmount.PastryTotal(amount);
-    // }
