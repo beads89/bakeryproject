@@ -22,6 +22,7 @@ _This application will help us order delicious bakes from our friend, Pierre. It
 * _Clone or download repository._
 * _If downloaded, extract contents to desired folder._
 * _Navigate to and open Bakery.Solution directory in Code editor._
+* _Using the terminal, navigate to Bakery.Solution/Bakery.Tests and run "dotnet restore"._
 * _Using the terminal, navigate to Bakery.Solution/Bakery and run "dotnet build"._
 * _Using the terminal, navigate to Bakery.Solution/Bakery and run "dotnet run" to start the application. Contents will appear in terminal._
 
