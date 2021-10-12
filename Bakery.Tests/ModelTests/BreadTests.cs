@@ -26,6 +26,10 @@ namespace Bakery.Tests
       Bread testBread = new Bread();
       Assert.AreEqual(10, testBread.BreadCost(3));
     }
+  }
+  [TestClass]
+  public class PastryTests
+    {
     [TestMethod]
     public void PastryConstructor_CreatesInstanceOfPastry_CreatePastry()
     {
@@ -43,6 +47,20 @@ namespace Bakery.Tests
     {
       Pastry testPastry = new Pastry();
       Assert.AreEqual(10, testPastry.PastryCost(6));
+    }
+  }
+  [TestClass]
+  public class ProgramTests
+  {
+    [TestMethod]
+    public void Main_CalculatesTotalCostOfOrder_ReturnTotalCost()
+    {
+      Bread testBread = new Bread();
+      int testBreadInput = testBread.BreadCost(6);
+      Pastry testPastry = new Pastry();
+      int testPastryInput = testPastry.PastryCost(6);
+      int totalCost = testBreadInput + testPastryInput;
+      Assert.AreEqual(totalCost, 30);
     }
   }
 }
