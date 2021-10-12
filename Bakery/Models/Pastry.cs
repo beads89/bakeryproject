@@ -19,7 +19,7 @@ namespace Bakery
       {
         if(i % 3 == 0)
         {
-          --pastrySingle;
+          pastrySingle--;
         }
       } return pastrySingle;
     }

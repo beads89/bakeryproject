@@ -18,7 +18,7 @@ namespace Bakery
       Console.WriteLine("How many delicious pastries would you like?");
       string pastryInput = Console.ReadLine();
       int pastryInputInt = Convert.ToInt32(pastryInput);
-      int totalCost = totalBreadOrder.BreadTotal(breadInputInt) + totalPastryOrder.PastryTotal(pastryInputInt);
+      int totalCost = totalBreadOrder.BreadTotal(totalBreadOrder.BreadCost(breadInputInt)) + totalPastryOrder.PastryTotal(totalPastryOrder.PastryCost(pastryInputInt));
       Console.WriteLine("Your order comes out to " + totalCost + ". Thank you for your generosity and enjoy your delights!");
 
     }
